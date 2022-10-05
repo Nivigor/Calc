@@ -46,7 +46,7 @@ class MainWindow(QMainWindow, Ui_kalkuliktor):
         self.display()
 
     def operation(self, op):
-        if self.current_op:  # Complete the current operation
+        if self.current_op:  # Завершаем текущую операцию
             self.equals()
 
         self.stack.append(0)
